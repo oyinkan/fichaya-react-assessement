@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/fichaya-react-assessement/static/css/main.062041b2.chunk.css",
+    "main.js": "/fichaya-react-assessement/static/js/main.9eeb9ba7.chunk.js",
+    "main.js.map": "/fichaya-react-assessement/static/js/main.9eeb9ba7.chunk.js.map",
+    "runtime-main.js": "/fichaya-react-assessement/static/js/runtime-main.43ac07f6.js",
+    "runtime-main.js.map": "/fichaya-react-assessement/static/js/runtime-main.43ac07f6.js.map",
+    "static/js/2.64df8226.chunk.js": "/fichaya-react-assessement/static/js/2.64df8226.chunk.js",
+    "static/js/2.64df8226.chunk.js.map": "/fichaya-react-assessement/static/js/2.64df8226.chunk.js.map",
+    "static/js/3.20648107.chunk.js": "/fichaya-react-assessement/static/js/3.20648107.chunk.js",
+    "static/js/3.20648107.chunk.js.map": "/fichaya-react-assessement/static/js/3.20648107.chunk.js.map",
+    "index.html": "/fichaya-react-assessement/index.html",
+    "static/css/main.062041b2.chunk.css.map": "/fichaya-react-assessement/static/css/main.062041b2.chunk.css.map",
+    "static/js/2.64df8226.chunk.js.LICENSE.txt": "/fichaya-react-assessement/static/js/2.64df8226.chunk.js.LICENSE.txt",
+    "static/media/bell.f600e40c.svg": "/fichaya-react-assessement/static/media/bell.f600e40c.svg",
+    "static/media/logo.ed86ea5b.svg": "/fichaya-react-assessement/static/media/logo.ed86ea5b.svg",
+    "static/media/user.6476db20.svg": "/fichaya-react-assessement/static/media/user.6476db20.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.43ac07f6.js",
+    "static/js/2.64df8226.chunk.js",
+    "static/css/main.062041b2.chunk.css",
+    "static/js/main.9eeb9ba7.chunk.js"
+  ]
+}
