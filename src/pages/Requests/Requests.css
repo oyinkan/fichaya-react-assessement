@@ -1,0 +1,249 @@
+main {
+    padding: 6rem 12rem;
+}
+.request-wrapper {
+    width: 680px;
+    background: #FFFFFF;
+    border: 1px solid #EDEDED;
+    border-radius: 10px;
+    padding: 2rem 3rem;
+    margin-top: 1.5rem;
+}
+.request-wrapper .title {
+    font-size: 1.4rem;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #606077;
+    margin-bottom: -5px;
+}
+.request-wrapper .value {
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 3rem;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #01037C;
+}
+.d-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.d-flex .details-wrapper {
+    width: 33%;
+    margin-bottom: 3rem;
+}
+.request-wrapper .ungenerated {
+    width: 117px;
+    height: 30px;
+    background: rgb(255 153 31 / 15%);
+    text-align: center;
+    padding-top: 2px;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 23px;
+    text-transform: uppercase;
+    color: #FF991F;
+    margin-top: 5px;
+}
+hr {
+    border: 1px solid #EDEDED;
+}
+/* .dropdown {
+    display: none;
+}
+.action-wrapper:hover .dropdown {
+    display: block;
+} */
+.action-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 3.5rem;
+    margin-bottom: 5px;
+    position: relative;
+}
+.btn-action {
+    width: 215px;
+    height: 50px;
+    background: #2E2E99;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 165.5%;
+    color: #EDEDED;
+    border: 0;
+}
+.dropdown {
+    width: 215px;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1292);
+    border-radius: 4px;
+    position: absolute;
+    bottom: 4rem;
+}
+.dropdown li {
+    border-bottom: 1px solid rgba(237, 237, 237, 0.4);
+}
+.dropdown li a {
+    display: block;
+    font-size: 16px;
+    line-height: 27px;
+    color: #606077;
+    padding: 1rem;
+    padding-bottom: 7px;
+}
+.dropdown li a:hover {
+    background: #fafafa;
+}
+.d-flex .form-wrapper {
+    width: 540px;
+    height: 488px;
+    background: #FFFFFF;
+    border: 1px solid #EDEDED;
+    border-radius: 10px;
+    padding: 4rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+label {
+    display: block;
+    font-size: 1.6rem;
+    line-height: 2.7rem;
+    color: #373737;
+}
+.form-control {
+    font-family: 'Mukta', sans-serif;
+    width: 100%;
+    height: 6rem;
+    border: 1px solid #DEA000;
+    border-radius: 5px;
+    font-size: 1.8rem;
+    line-height: 165.5%;
+    color: #606077!important;
+    padding-left: 2.5rem;
+    padding-right: 1.5rem;
+}
+input:disabled {
+    background-color: #ededed;
+    border: 0;
+}
+.btn-create {
+    background: #DEA000;
+    color: #FFF;
+}
+.btn-cancel {
+    background: transparent;
+    border: 1px solid #01037C;
+    color: #01037C;
+}
+
+
+/* generate invoice page */
+.invoice-wrapper {
+    width: 540px;
+    background: #FFFFFF;
+    border: 1px solid #EDEDED;
+    border-radius: 10px;
+    padding: 3rem 4rem;
+    
+}
+.align-items-center {
+    align-items: center;
+}
+.mb-5 {
+    margin-bottom: 2.5rem;
+}
+.invoice-wrapper .title {
+    font-size: 1.6rem;
+    letter-spacing: 0.04em;
+    color: #606077;
+    text-transform: uppercase;
+}
+.invoice-wrapper .value {
+    font-size: 16px;
+    color: #373737;
+    margin-top: -5px;
+}
+.invoice-wrapper .value span {
+    font-weight: 600;
+}
+.invoice-wrapper .value.unpaid {
+    color: #F6431E;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.table-responsive {
+    width: 100%;
+    overflow-x: auto;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th {
+    font-weight: normal;
+    text-align: left;
+}
+thead tr {
+    border-bottom: 1px solid #EDEDED;
+}
+table td p {
+    padding-top: 1rem;
+}
+table th p {
+    padding-bottom: 5px;
+    font-size: 14px;
+}
+.total-wrapper {
+    width: 40%;
+    float: right;
+    margin-top: 5rem;
+}
+.clearfix {
+    content: '';
+    clear: right;
+}
+.total-wrapper .title {
+    font-size: 14px;
+}
+.total-wrapper .value {
+    font-weight: 500;
+}
+.total-wrapper p {
+    padding: 1rem 0;
+}
+.border {
+    border-top: 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
+} 
+.border-bottom {
+    border-bottom: 1px solid #ededed;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    main {
+        padding: 6rem 3rem;
+    }
+    .request-wrapper,
+    .half,
+    .invoice-wrapper {
+        width: 100%;
+    }
+    .total-wrapper {
+        width: 80%;
+    }
+    .d-flex .form-wrapper {
+        width: 100%;
+        height: auto;
+    }
+    .btn-cancel,
+    .btn-create {
+        margin-bottom: 1rem;
+    }
+}
